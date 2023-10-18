@@ -6,8 +6,10 @@
     - award: Overall GPA:4.00/4.00
     - award: Ranking:1/104
   summary:
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Master of Engineering, Computer Science and Technology
+  uni: Tsinghua University, School of Engineering
+  year: Sep.2020 &mdash; Aug.2023
+  awards: 
+    - award: Major GPA:3.52/4.00
+
+  summary: 
