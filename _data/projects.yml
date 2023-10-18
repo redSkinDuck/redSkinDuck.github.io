@@ -10,7 +10,13 @@
 
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
+  role: Improved Bounds and Optimal Constructions of (r,&#948)-LRCs with Minimum Distance 3&#948+3
   duration: 2007 &mdash; Present
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: Yueqi Chen, Bin Chen, Weijun Fang, Shu-Tao Xia. “Improved Bounds and Optimal Constructions of (r,#948)-LRCs with Minimum Distance 3#948+3.” Submitted to IEEE International Symposium on Information Theory.
+
+  - project: Springfield Community Outreach Group
+  role: An explicit bound on the number of sums of even ascending powers.
+  duration: 2007 &mdash; Present
+  # url: "#"
+  description: “An explicit bound on the number of sums of even ascending powers.” To be submitted to Journal of Number Theory.
