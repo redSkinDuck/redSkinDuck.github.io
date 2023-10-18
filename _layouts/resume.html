@@ -112,7 +112,7 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
 
-          {% for project in education.projects %}
+          {% for project in job.projects %}
           <h4 class="resume-item-details" itemprop="description">{{ project.project }} &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.summary }}</p>
         {% endfor %}
