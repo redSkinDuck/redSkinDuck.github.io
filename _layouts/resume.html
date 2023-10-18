@@ -115,10 +115,9 @@
           {% for project in education.projects %}
           <h4 class="resume-item-details" itemprop="description">{{ project.project }} &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.summary }}</p>
-          {% endfor %}
-        </div><!-- end of resume-item -->
         {% endfor %}
-
+      </div><!-- end of resume-item -->
+      {% endfor %}
       </section>
       <!-- end Experience -->
       {% endif %}

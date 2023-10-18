@@ -1,10 +1,10 @@
 # research experience
 - company: Improved bounds and the construction of optimal (r,&#948)-locally repairable codes
-projects:
-  - project: project name 1
-    duration: Oct, 2013 &mdash; Present
-    summary: summary 1
-  - project: project name 2
-    duration: Oct, 2013 &mdash; Present
-    summary: summary 2
+  projects:
+    - project: project name 1
+      duration: Oct, 2013 &mdash; Present
+      summary: summary 1
+    - project: project name 2
+      duration: Oct, 2013 &mdash; Present
+      summary: summary 2
 
