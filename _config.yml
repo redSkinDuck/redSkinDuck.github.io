@@ -9,7 +9,7 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
+resume_avatar:                  "flase"
 resume_name:                    "Yueqi Chen"
 resume_title:                   "SHORT BIO"
 
