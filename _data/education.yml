@@ -1,15 +1,19 @@
 # Degree
-- degree: Bachelor of Science, Information and Computing Science
-  uni: Sun Yat-Sen University, School of Mathematics
+- degree: Bachelor of Engineering in Computer Science
+  uni: The Hong Kong University of Science and Technology
   year: Sep.2016 &mdash; Jul.2020
   awards:
-    - award: Overall GPA&#58 4.00/4.00
-    - award: Ranking&#58 1/104
-  summary: 
+    - award: Cumulative GPA&#58 3.67 / 4.3
+    - award: Major GPA&#58 3.80 / 4.3
+    - award: Ranking&#58 10%
+  summary: <b>Relevant coursework</b>&#58 Database Architecture and Implementation, Machine Learning for Natural Language Processing, Data Mining, Image Processing, Honors Design and Analysis of Algorithms, Operating System, Statistical Inference, Probability, Intermediate Investments, Operations Management
 
-- degree: Master of Engineering, Computer Technology
-  uni: Tsinghua University, School of Engineering
-  year: Sep.2020 &mdash; Aug.2023
-  awards: 
-    - award: Major GPA&#58 3.52/4.00
-  summary: <b>Relevant coursework</b>&#58 Mathematical Analysis, Advanced Theory of Statistics, Probability Theory, Advanced Information Theory, Linear Algebra, Optimization, Numerical Analysis, Advanced Matrix Analysis, Ordinary Differential Equations, Data Structure and Algorithms, Numerical Analysis of Differential Equations, Stochastic Processes, Fourier Analysis, Dynamical Systems, Computer Systems and Architecture
+- degree: Exchange
+  uni: Peking University
+  year: June 2018 &mdash; August 2018
+  summary: <b>Relevant coursework</b>&#58 Robotics&#58 Programming and Practice
+
+- degree: Exchange
+  uni: Washington University in St. Louis
+  year: January 2019 &mdash; May 2019
+  summary: <b>Relevant coursework</b>&#58 Machine Learning, Database Management System , Principles of Managerial Accounting
