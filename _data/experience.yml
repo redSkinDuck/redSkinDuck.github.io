@@ -1,27 +1,34 @@
 # working experience
+
 - company: Alibaba Cloud (Full-time)
+  position: Senior Software Development Engineer, Optimizer and SQL Group, PolarDB, Database BU
+  duration: July, 2020 &mdash; Present
   projects:
-    - project: Improved bounds of optimal (r,&#948)-locally repairable codes
-      duration: Jun, 2021 &mdash; Feb, 2022
-      summary: <ul class="resume-item-list"><li>Locally repairable codes (LRCs) are a class of codes widely used in distributed storage systems that optimize repair locality. Traditional r-LRCs could only recover a single erased symbol of codeword by assessing at most r other symbols in each local repair block; we analyzed the generalized LRCs of (r,&#948)-locality with optimal minimum Hamming distance to tolerate multiple node failures.</li><li>Significantly improved the upper bound with weaker assumptions on the code length n of linear LRCs that is tight in at least three special cases, including d = 2&#948+2 and d = 2&#948+1 where d denotes the minimum distance; this bound can be exactly achieved in the above cases by existing constructions.</li><li>Provided an equivalent existence condition for the optimal (r=2,&#948)-LRCs with disjoint local subcodes using the parity-check matrix approach and restated the existence condition via finite projective planes using the sunflower construction technique from Galois geometry.</li><li>Introduced a framework for future research on the maximum code length and constructions of optimal (r,&#948)-LRCs with small localities in which fewer symbols are required for recovery of the failure nodes.</li><li>Contributed as third-author to the paper, “Some Results on the Improved Bound and Construction of Optimal (r,&#948)-locally repairable codes”, published at the IEEE/CIC International Conference on Communications, 2022.</li></ul>
-    - project: Construction of optimal (r,&#948)-locally repairable codes
-      duration: Feb, 2022 &mdash; Jul, 2023
-      summary: <ul class="resume-item-list"><li>Constructing optimal (r,&#948)-locally repairable codes (LRCs) that achieve maximal code length for d > 3&#948 remains a challenge; for this project, we consider the setting of optimal (r,&#948)-LRCs with d = 3&#948+3.</li><li>Proposed a novel algebraic-geometry-based general construction technique for constructing (r,&#948)-LRCs that exactly achieve the longest possible code length of n=(&#948+1)(q+1) as given by the generalized Singleton-type bound for d = 3&#948+3.</li><li>Obtained a tighter upper bound on the code length n for optimal (n, k, d=3, &#948+3; r=2, &#948)-LRCs using similar methodological underpinnings of the line-point incidence matrix and the Johnson bounds for constant weight codes; the proof combines ideas from both algebra and geometry.</li><li>Derived an upper bound on the number of rows in the line-point incident matrix by partitioning the matrix via the matrix transformation technique and utilizing the resulting intersection condition on the lines given by our proposed geometric characterization of optimal (n, k, d = 3&#948 + 3; r=2, &#948)-LRCs.</li><li>Contributed as first author to the manuscript, “Improved Bounds and Optimal Constructions of (r, &#948)-LRCs with Minimum Distance 3&#948+3”, submitted to IEEE International Symposium on Information Theory.</li></ul>
-
-- company: New designs of multiple maximum distance separable array codes
-  projects:
-    - project: Develop efficient repair schemes
-      duration: Jan, 2022 &mdash; Present
-      summary: <ul class="resume-item-list"><li>This project aims at developing efficient repair schemes-an active area of research closely connected to distributed storage systems-that recover a single node failure while providing fault tolerance for multiple node failures.</li><li>Proposed a method that reconstructs all information nodes by applying the puncturing procedure on parity-check matrix of cyclic codes with specific generator polynomials.</li><li>Proposed a new algebraic construction of maximum distance separable (MDS) array codes utilizing the theory of finite fields.</li><li>Combined the advantages of both LRCs and MDS array code to construct a new class of multiple MDS array code with low encoding and decoding complexity, high reliability, and flexibility </li><li>Developed a scheduled algorithm for syndrome computation of locally repairable array codes in some special cases.</li><li>Completing the manuscript as second author, “New Design of Maximum Distance Separable Array Codes and Locally Repairable Array Codes”, to be submitted soon to IEEE Conference on Computer Communication.</li></ul>
-
-- company: Neural machine translation with global and local attention
-  projects:
-    - project: Neural machine translation with global and local attention
-      duration: Jan, 2020 &mdash; Feb, 2020
-      summary: <ul class="resume-item-list"><li>The attention mechanism is a procedure proposed for encoder-decoder type neural networks to improve the performance of sentence level prediction tasks. The mechanism incentivizes the network to make alignment decisions based on the most relevant parts of the input sequence using attentional hidden states.</li><li>Analyzed the specific advantages and disadvantages of various attentional architectures, including multi-head attention, self-attention, and hierarchical attention.</li><li>Designed and implemented in PyTorch local attention-based and global attention-based seq2seq models, each with four long short term memory (LSTM) layers and dropout layers to prevent overfitting; global attention is a mechanism that consider all the hidden states when deriving the context vector, while local attention considers only a subset of hidden states, thereby resolving the problem of excessive computational costs resulted from global attention.</li><li>Fine-tuned model parameters, including number of hidden layers and number of hidden units per layer; preprocessed and evaluated model performance in terms of BLEU score with brevity penalty on the IWSLT2015 English-Vietnamese dataset comprising of ~130,000 sentences in the training set and ~1,200 sentences in the test set.</li><li>Achieved a BLEU score of 17.6 on the IWSLT2015 English-Vietnamese test set; concluded that the proposed model is suitable for capturing long-distance dependencies between words.</li></ul>
-
-- company: An explicit bound on the number of sums of even ascending powers
-  projects: 
-    - project: Obtained an explicit bound on the number of even ascending powers using the Hardy-Littlewood circle method
-      duration: Jan, 2019 &mdash; Sep, 2019
-      summary: <ul class="resume-item-list"><li>Freiman and Scourfield proved that any large enough natural number n can be written as the sum of certain integers of even ascending powers. We are interested in the smallest number of even-ascending-powered integers such that n can be decomposed into.</li><li>Defined Farey dissection and major arcs-arcs that satisfy specific inequalities-and estimated contribution of minor arcs.Approximated analytic generating functions-the associated Fourier coefficients to a specific function on the partition of even indices-on major arcs by their arithmetic counterparts and provided an approximation error bound using the pruning lemma.</li><li>Pruned the major arcs to logarithmically scaled major arcs and obtained the associated the minor arcs. Showed that every expected error term can be bounded by something negligible, thus allowing us to focus on the main term in the expression.</li><li>Proved that any large enough natural number n can be written as the sum of 71 even ascending powers.</li><li>Contributed to a manuscript entitled “An explicit bound on the number of sums of even ascending powers”, to be submitted to Journal of Number Theory.</li></ul>
+    - project: AI Based Plan Hint Generation
+      summary: 
+        <ul class="resume-item-list">
+          <li>
+            Developed an AI-based system for database query optimization using XGBoost and decision trees. The SQL Plan Management system initially caches the current execution plans and AI model generates alternative plans for evaluation. Background execution of these AI-generated plans in standby nodes allows performance comparison, and superior plans automatically replace the original.
+          </li>
+        </ul>
+    - project: Command Offloading Framework
+      summary: 
+        <ul class="resume-item-list">
+          <li>
+            Design and implement an offloading framework that enables the system to execute the collection of statistics in standby instance and the background execution for performance validation, which saves the computing power of master instance for execution of queries. 
+          </li>
+        </ul>
+    - project: SQL Plan Management (SPM) Module
+      summary: 
+        <ul class="resume-item-list">
+          <li>
+            Developed an SPM module to stabilize execution plans and enhance query performance. The module ensured plan stability while leveraging idle system time to execute and evaluate alternative plans in the background, enabling continuous optimization without disrupting active operations.            
+          </li>
+        </ul>
+    - project: Statement Outline
+      summary: 
+        <ul class="resume-item-list">
+          <li>
+            Developed the Statement Outline feature, enabling developers to manually add hints to specific queries to correct suboptimal execution plans. Widely adopted in production environments, this tool improved plan stability and addressed optimizer-generated inefficiencies.
+          </li>
+        </ul>
