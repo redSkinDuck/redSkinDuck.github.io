@@ -32,3 +32,25 @@
             Developed the Statement Outline feature, enabling developers to manually add hints to specific queries to correct suboptimal execution plans. Widely adopted in production environments, this tool improved plan stability and addressed optimizer-generated inefficiencies.
           </li>
         </ul>
+
+- company: Alibaba Cloud (Intern)
+  position: Software Development Engineer Intern, Optimizer & SQL Group, PolarDB, Database BU
+  duration: May 2019 &mdash; August 2019
+  projects:
+  - project: MySQL build-in test framework improvement
+    summary: 
+      <ul class="resume-item-list">
+        <li>
+          Improve the result masking of mysql-test, the built-in test framework of MySQL. It implements matching of regex in specific column of result, which is used to the test features whose result is not stable but follows some pattern.
+        </li>
+      </ul>
+  - project: Memory Allocation Optimization
+    summary:
+      <ul class="resume-item-list">
+        <li>
+          Survey popular implementations of general purpose malloc, like jemalloc and tcmalloc. A patent is panding about it.
+        </li>
+      </ul>
+    
+    
+    
