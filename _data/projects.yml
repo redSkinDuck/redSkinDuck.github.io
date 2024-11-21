@@ -1,22 +1,16 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Some Results on the Improved Bound and Construction of Optimal (r,&#948) LRCs
-  duration: 2012 &mdash; Present
+# FYP
+- project: FYP
+  role: A System for Predicting and Explaining Stock Price Prediction
+  duration: January 2020 &mdash; May 2020
   # url: "#"
-  description: B. Chen, W. Fang, Y. Chen, S. -T. Xia, F. -W. Fu and X. Chen, "Some Results on the Improved Bound and Construction of Optimal (r,&#948) LRCs," 2022 IEEE/CIC International Conference on Communications in China (ICCC), 2022, pp. 365-370, doi&#58 10.1109/ICCC55456.2022.9880643.
+  description: Developed a stock trend prediction system leveraging GB-level financial news and stock price data. Implemented NLP algorithms to analyze public sentiment and trained models using Logistic Regression, Decision Tree, Random Forest, XGBoost, LSTM, and reinforcement learning. Achieved over 75% accuracy in 7-day and 30-day trend predictions, earning an A grade for the final year project.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Improved Bounds and Optimal Constructions of (r,&#948)-LRCs with Minimum Distance 3&#948+3
-  duration: 2007 &mdash; Present
+# JAVA DBMS
+- project: JAVA DBMS
+  role: A Storage Engine of Relational Database Using JAVA
+  duration: January 2019 &mdash; May 2019
   # url: "#"
-  description: Yueqi Chen, Bin Chen, Weijun Fang, Shu-Tao Xia. “Improved Bounds and Optimal Constructions of (r,#948)-LRCs with Minimum Distance 3#948+3.” Submitted to IEEE International Symposium on Information Theory.
-
-- project: Springfield Community Outreach Group
-  role: An explicit bound on the number of sums of even ascending powers.
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: “An explicit bound on the number of sums of even ascending powers.” To be submitted to Journal of Number Theory.
+  description: Designed and implemented a database engine with core functionalities. Built physical storage using heap files to manage table metadata and data tuples. Supported SQL keywords and functions, including SELECT, FROM, WHERE, GROUP BY, and aggregate operations, through query execution and relational algebra. Developed a B+ tree index for efficient data access and implemented a buffer pool and read-write locks to enable transaction support.
